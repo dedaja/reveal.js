@@ -5,20 +5,20 @@
  */
 @import url(./fonts/source-sans-pro/source-sans-pro.css);
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
-  color: #222; }
+  color: #8ad3db; }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --background-color: #191919;
+  --background-color: #444545;
   --main-font: Source Sans Pro, Helvetica, sans-serif;
   --main-font-size: 42px;
-  --main-color: #fff;
+  --main-color: #8ad3db;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
   --heading-font: Source Sans Pro, Helvetica, sans-serif;
-  --heading-color: #fff;
+  --heading-color: #8ad3db;
   --heading-line-height: 1.2;
   --heading-letter-spacing: normal;
   --heading-text-transform: uppercase;
@@ -33,25 +33,25 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --link-color: #42affa;
   --link-color-hover: #8dcffc;
   --selection-background-color: #bee4fd;
-  --selection-color: #fff; }
+  --selection-color: #8ad3db; }
 
 .reveal-viewport {
-  background: #191919;
-  background-color: #191919; }
+  background: #444545;
+  background-color: #444545; }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 42px;
   font-weight: normal;
-  color: #fff; }
+  color: #8ad3db; }
 
 .reveal ::selection {
-  color: #fff;
+  color: #8ad3db;
   background: #bee4fd;
   text-shadow: none; }
 
 .reveal ::-moz-selection {
-  color: #fff;
+  color: #8ad3db;
   background: #bee4fd;
   text-shadow: none; }
 
@@ -70,7 +70,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #fff;
+  color: #8ad3db;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -256,14 +256,14 @@ section.has-light-background, section.has-light-background h1, section.has-light
   border: none; }
 
 .reveal .roll span:after {
-  color: #fff;
+  color: #8ad3db;
   background: #068de9; }
 
 /*********************************************
  * Frame helper
  *********************************************/
 .reveal .r-frame {
-  border: 4px solid #fff;
+  border: 4px solid #8ad3db;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal a .r-frame {
@@ -291,4 +291,4 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #191919; } }
+    background-color: #444545; } }
